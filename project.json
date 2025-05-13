@@ -1,34 +1,24 @@
 {
-
-  "name": "deal-crm-card",
-
-  "source": "src",
-
-  "build": "npm run build",
-
-  "extensions": {
-
-    "crm:card": {
-
-      "quote-card": {
-
-        "targets": ["QUOTE"],
-
-        "title": "Qualified Deals",
-
-        "fetch": {
-
-          "url": "https://your-backend-url/api/quote-card",
-
-          "method": "POST"
-
-        }
-
-      }
-
+  "title": "Qualified Deals",
+  "fetch": {
+    "remote": {
+      "url": "serverless/fetchDeals",
+      "method": "POST"
     }
-
-  }
-
+  },
+  "display": {
+    "properties": [
+      {
+        "label": "Deal Name",
+        "name": "dealname"
+      },
+      {
+        "label": "Amount",
+        "name": "amount"
+      }
+    ]
+  },
+  "objectTypes": [
+    "2-123456"  // Replace with your custom object ID (Quote)
+  ]
 }
- 
