@@ -1,4 +1,5 @@
 {
-  "name": "hubspot",
-  "srcDir": "src"
+  "name": "my-crm-card-project",
+  "version": "1.0.0",
+  "platformVersion": "2025.1"
 }
