@@ -1,5 +1,11 @@
 {
-  "name": "hubspot",
-  "version": "1.0.0",
-  "platformVersion": "2025.1"
+  "objectTypes": ["QUOTE"],
+  "title": "Associated Deals (Filtered)",
+  "fetch": {
+    "url": "https://app-na3.hubspot.com/contacts/341706491/objects/2-152588198/views/all/list",
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
 }
