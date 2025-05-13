@@ -1,11 +1,4 @@
 {
-  "objectTypes": ["QUOTE"],
-  "title": "Associated Deals (Filtered)",
-  "fetch": {
-    "url": "https://app-na3.hubspot.com/contacts/341706491/objects/2-152588198/views/all/list",
-    "method": "POST",
-    "headers": {
-      "Content-Type": "application/json"
-    }
-  }
+  "name": "my-crm-card",
+  "platformVersion": "2025.1"
 }
